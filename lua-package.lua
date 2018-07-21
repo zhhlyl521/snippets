@@ -1,14 +1,11 @@
 -- producer
 local userinfo_get = {}
-
 function userinfo_get.foo(userID)
 
   -- Operation to obtain user information
 
   return userinfo
-
 end
-
 return userinfo_get
 
 -- consumer
